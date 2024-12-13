@@ -6,8 +6,8 @@ FROM alpine:latest
 # Environment variables
 ENV MC_VERSION="latest" \
     PAPER_BUILD="latest" \
-    EULA="false" \
-    MC_RAM="" \
+    EULA="true" \
+    MC_RAM="5G" \
     JAVA_OPTS=""
 
 COPY papermc.sh .
